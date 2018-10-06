@@ -65,3 +65,30 @@ body {
   position: relative;
   top: 150px;
 }
+
+.feature-photo {
+  height: 200px;
+  width: 300px;
+}
+
+/*Feature tea photos*/
+
+#berry {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg');
+}
+
+#rum {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg');
+}
+
+#donut {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg');
+}
+
+#myrtle {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg');
+}
+
+#bedford {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg');
+}
