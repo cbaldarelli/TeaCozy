@@ -30,3 +30,7 @@ body {
   margin-left: 10px;
   padding: 9px;
 }
+
+.mission {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+}
