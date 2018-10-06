@@ -171,4 +171,16 @@ body {
   footer {
     position: relative;
     top: 85px;
+    width: 100%;
+    text-align:center;
+    margin: auto;
+  }
+
+.info {
+  height: 200px;
+}
+
+  .copywright {
+    text-align: left;
+    margin-left: 20px;
   }
