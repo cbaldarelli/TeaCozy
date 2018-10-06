@@ -8,6 +8,17 @@ body {
   background-color: black;
 }
 
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+  line-height: .25;
+}
+
+/* Header */
+
 .header {
   display: flex;
   background-color: black;
@@ -37,6 +48,8 @@ body {
   padding: 9px;
 }
 
+/* Mission section */
+
 #mission {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
   height: 700px;
@@ -48,14 +61,6 @@ body {
   align-items: center;
 }
 
-.headline {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 1200px;
-  line-height: .25;
-}
 #ourmission {
   background-color: black;
 }
@@ -122,4 +127,15 @@ body {
 
 #bedford {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg');
+}
+
+#locations {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  position: relative;
+  top: 69px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
