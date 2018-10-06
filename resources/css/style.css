@@ -76,27 +76,31 @@ body {
   flex-direction: row;
   flex-flow: wrap;
 }
-.feature-photo {
-  height: 200px;
-  width: 300px;
-  margin-bottom: 10px;
-}
 
 .feature-item {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
   text-align: center;
   margin: 10px;
   width: 300px;
+}
 
+.feature-photo {
+  height: 200px;
+  width: 300px;
+  padding: 0px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .feature-caption {
   margin: 0px;
   padding: 0px;
-  line-height: 1;
+  display: inline-block;
 }
+
 /*Feature tea photos*/
 
 #berry {
