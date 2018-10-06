@@ -60,17 +60,43 @@ body {
 }
 
 #teas {
-  width: 1200px;
   margin: auto;
   position: relative;
   top: 150px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-flow: wrap;
+}
 .feature-photo {
   height: 200px;
   width: 300px;
+  margin-bottom: 10px;
 }
 
+.feature-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+  width: 300px;
+
+}
+
+.feature-caption {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1;
+}
 /*Feature tea photos*/
 
 #berry {
