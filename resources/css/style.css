@@ -5,12 +5,14 @@ body {
   color: seashell;
   opacity: 0.9;
   font-size: 22px;
+  background-color: black;
 }
 
 .header {
   display: flex;
   background-color: black;
   border-bottom: 1px solid seashell;
+  position: fixed;
 }
 
 .header nav {
@@ -33,4 +35,7 @@ body {
 
 .mission {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  position: relative;
 }
