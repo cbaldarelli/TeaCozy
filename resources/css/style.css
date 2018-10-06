@@ -65,6 +65,9 @@ body {
   background-color: black;
 }
 
+
+/* Teas section */
+
 #teas {
   margin: auto;
   position: relative;
@@ -129,13 +132,38 @@ body {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg');
 }
 
+
+/* Location section */
+
 #locations {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
   height: 500px;
   width: 1200px;
   position: relative;
-  top: 69px;
+  top: 100px;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#locations .headline {
 
 }
+.stores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 980px;
+  margin: auto;
+
+}
+.address {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+  margin-top: 15px;
+  padding-top: 0px;
+  }
