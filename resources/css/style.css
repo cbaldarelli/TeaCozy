@@ -35,11 +35,23 @@ body {
   padding: 9px;
 }
 
-.mission {
+#mission {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
   height: 700px;
   width: 1200px;
   position: relative;
   top: 69px;
   margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#ourmission {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1200px;
+line-height: .25;
 }
