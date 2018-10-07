@@ -6,6 +6,7 @@ body {
   opacity: 0.9;
   font-size: 22px;
   background-color: black;
+  margin: 0;
 }
 
 .headline {
@@ -141,7 +142,8 @@ body {
   height: 500px;
   width: 1200px;
   position: relative;
-  top: 100px;
+  top: 200px;
+  margin: auto;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -168,19 +170,21 @@ body {
   padding-top: 0px;
   }
 
-  footer {
-    position: relative;
-    top: 85px;
-    width: 100%;
-    text-align:center;
-    margin: auto;
+footer {
+  position: relative;
+  width: inherit;
+  top: 200px;
+  text-align:center;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
   }
 
-.info {
+footer #info {
   height: 200px;
 }
 
-  .copywright {
+footer #copywright {
     text-align: left;
     margin-left: 20px;
   }
