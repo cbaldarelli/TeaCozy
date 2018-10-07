@@ -9,6 +9,9 @@ body {
   margin: 0;
 }
 
+a {
+  color: seashell;
+}
 .headline {
   display: flex;
   justify-content: center;
