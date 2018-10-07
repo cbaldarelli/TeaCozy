@@ -142,18 +142,22 @@ body {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
   height: 500px;
   width: 1200px;
+  background-size: 100%;
   position: relative;
   top: 200px;
   margin: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 #locations .headline {
-
+  display: inline-block;
+  line-height: 0;
+  text-align: center;
+  position: relative;
+  top: 70px;
 }
 .stores {
   display: flex;
