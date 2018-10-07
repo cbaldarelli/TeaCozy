@@ -109,6 +109,7 @@ body {
 .feature-caption {
   margin: 0px;
   padding: 0px;
+  line-height: 0;
   display: inline-block;
 }
 
