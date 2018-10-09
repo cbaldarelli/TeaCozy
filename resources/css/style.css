@@ -145,7 +145,9 @@ a {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
   height: 500px;
   width: 1200px;
-  background-size: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-size: cover;
   position: relative;
   top: 200px;
   margin: auto;
@@ -160,14 +162,16 @@ a {
   line-height: 0;
   text-align: center;
   position: relative;
-  top: 70px;
+  top: 60px;
   margin: 0;
 }
 .stores {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
   width: 980px;
+  height: 300px;
   margin: auto;
 }
 .address {
@@ -175,8 +179,8 @@ a {
   width: 300px;
   background-color: black;
   text-align: center;
-  margin-top: 15px;
-  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
   }
 
 footer {
