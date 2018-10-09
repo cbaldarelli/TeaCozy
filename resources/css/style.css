@@ -18,7 +18,7 @@ a {
   align-items: center;
   flex-direction: column;
   width: 1200px;
-  line-height: .25;
+  line-height: 0;
 }
 
 
@@ -161,6 +161,7 @@ a {
   text-align: center;
   position: relative;
   top: 70px;
+  margin: 0;
 }
 .stores {
   display: flex;
